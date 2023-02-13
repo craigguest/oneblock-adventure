@@ -4,9 +4,25 @@ OneBlock Adventure map updated for 1.19.3 and expanded to include new phases fro
 
 ## Tags
 
+Tags used to track various entities througout the data pack.
+
 | Name           | Description                                           |
 |----------------|-------------------------------------------------------|
-| joined         | Tag player having joined the game for the first time. |
+| joined         | Player has joined the game for the first time.        |
+| infinite-block | Marks the managing entity the infinite block state.   |
+
+## Scoreboard Objectives
+
+Objectives used to track the game state, stored against the tracking entity.
+
+| Name             | Description                                              |
+|------------------|----------------------------------------------------------|
+| oneblock-counter | Tracks the number of times the infinite block was mined. |
+
+## Debug Functions
+
+ * `/scoreboard players list @e[tag=infinite-block,limit=1]` - game state, scoreboard
+ * `/tag @e[type=minecraft:area_effect_cloud] list` - game state, tags
 
 ## References
 
