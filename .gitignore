@@ -1,3 +1,13 @@
+# IDE files
 *.code-workspace
-*.log
 .vscode/
+
+# Debug files
+*.log
+
+# Exclude player/world data
+save/*
+
+# Allow distributed world files
+!save/datapacks
+!save/level.dat
